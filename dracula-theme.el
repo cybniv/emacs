@@ -14,7 +14,7 @@
 ;; A dark color theme available for a number of editors.
 
 ;;; Code:
-(require 'cl-lib)
+;; (require 'cl-lib)
 (deftheme dracula)
 
 
