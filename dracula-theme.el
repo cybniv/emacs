@@ -78,17 +78,17 @@ read it before opening a new issue about your will.")
 
 ;; Assigment form: VARIABLE COLOR [256-COLOR [TTY-COLOR]]
 (let ((colors '(;; Upstream theme color
-                (dracula-bg      "#282a36" "unspecified-bg" "unspecified-bg") ; official background
-                (dracula-fg      "#f8f8f2" "#ffffff" "brightwhite") ; official foreground
-                (dracula-current "#44475a" "#303030" "brightblack") ; official current-line/selection
-                (dracula-comment "#6272a4" "#5f5faf" "blue")        ; official comment
-                (dracula-cyan    "#8be9fd" "#87d7ff" "brightcyan")  ; official cyan
-                (dracula-green   "#50fa7b" "#5fff87" "green")       ; official green
-                (dracula-orange  "#ffb86c" "#ffaf5f" "brightred")   ; official orange
-                (dracula-pink    "#ff79c6" "#ff87d7" "magenta")     ; official pink
-                (dracula-purple  "#bd93f9" "#af87ff" "brightmagenta") ; official purple
-                (dracula-red     "#ff5555" "#ff8787" "red")         ; official red
-                (dracula-yellow  "#f1fa8c" "#ffff87" "yellow")      ; official yellow
+                (dracula-bg      "#22212C" "unspecified-bg" "unspecified-bg") ; official background
+                (dracula-fg      "#F8F8F2" "#ffffff" "brightwhite") ; official foreground
+                (dracula-current "#454158" "#303030" "brightblack") ; official current-line/selection
+                (dracula-comment "#7970A9" "#5f5faf" "blue")        ; official comment
+                (dracula-cyan    "#80FFEA" "#87d7ff" "brightcyan")  ; official cyan
+                (dracula-green   "#8AFF80" "#5fff87" "green")       ; official green
+                (dracula-orange  "#FFCA80" "#ffaf5f" "brightred")   ; official orange
+                (dracula-pink    "#FF80BF" "#ff87d7" "magenta")     ; official pink
+                (dracula-purple  "#9580FF" "#af87ff" "brightmagenta") ; official purple
+                (dracula-red     "#FF9580" "#ff8787" "red")         ; official red
+                (dracula-yellow  "#FFFF80" "#ffff87" "yellow")      ; official yellow
                 ;; Other colors
                 (bg2             "#373844" "#121212" "brightblack")
                 (bg3             "#464752" "#262626" "brightblack")
